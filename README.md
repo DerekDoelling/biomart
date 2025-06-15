@@ -55,13 +55,16 @@ listDatasets(useMart("ENSEMBL_MART_ENSEMBL"))
 ## Limitations
 Like any tool, biomaRt has a few limitations to keep in mind:
 •	Genome version mismatch: Ensembl updates frequently. If your gene IDs come from an older genome build, they might not map correctly to current annotations.
+
 •	Solution: Use an archived version of Ensembl that matches your data:
 bat.ensembl <- useMart(
   biomart = "ENSEMBL_MART_ENSEMBL",
   dataset = "mlucifugus_gene_ensembl",
   host = "https://jul2022.archive.ensembl.org"
 )
+
 •	Server performance: Because biomaRt connects to Ensembl’s live servers, performance can vary depending on server load or downtime.
+
 •	Incomplete annotations: Not all genes, especially in less-studied species, will have names or full metadata.
 
 ## Summary
