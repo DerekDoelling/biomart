@@ -1,4 +1,5 @@
 # biomaRt
+![image](https://github.com/user-attachments/assets/91ccc0db-3520-47f6-9dad-1076b1e5f891)
 ## Background
 Bioinformatics is all about working with vast amounts of genomic data. While that's incredibly powerful, it often comes with a frustrating limitation: lack of meaningful metadata. You might get long lists of gene IDs, but those IDs don’t tell you much on their own—no gene symbols, no descriptions, no information on what biological processes the genes are involved in. Trying to annotate each gene manually would be tedious, especially when you're dealing with 20,000+ unique genes.
 That’s where biomaRt comes in. It streamlines the process of retrieving biologically meaningful annotations directly in your R environment, helping you turn cryptic gene IDs into actionable insights.
