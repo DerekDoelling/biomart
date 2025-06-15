@@ -60,7 +60,7 @@ Like any tool, biomaRt has a few limitations to keep in mind:
 bat.ensembl <- useMart(
   biomart = "ENSEMBL_MART_ENSEMBL",
   dataset = "mlucifugus_gene_ensembl",
-  host = "https://jul2022.archive.ensembl.org"
+  host = "`https://jul2022.archive.ensembl.org`"
 )
 
 •	Server performance: Because biomaRt connects to Ensembl’s live servers, performance can vary depending on server load or downtime.
